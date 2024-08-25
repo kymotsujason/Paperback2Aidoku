@@ -60,6 +60,7 @@ const Home = () => {
 				<input
 					id="file-upload"
 					type="file"
+					accept=".pas4"
 					className={styles.input}
 					onChange={(e) => onFileChange(e)}
 					disabled={uploadDisabled}

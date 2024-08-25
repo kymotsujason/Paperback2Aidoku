@@ -1,6 +1,6 @@
 # Paperback2Aidoku
 
-This project converts the Paperback backup archive format (.pas4) to a Aidoku backup compatible JSON. Tested with a 4k+ manga library using MangaDex, MangaSee, MangaNato, and Toonily. Note: Toonily will need to be migrated after the restore or converted with another tool I made found here: [ToonilyID2Title](https://github.com/kymotsujason/ToonilyID2Title).
+This project converts the Paperback backup archive format (.pas4) to a Aidoku backup compatible JSON. Everything is done in memory and on the client side for privacy and security (probably). Tested with a 4k+ manga library using MangaDex, MangaSee, MangaNato, and Toonily. Note: Toonily will need to be migrated after the restore or converted with another tool I made found here: [ToonilyID2Title](https://github.com/kymotsujason/ToonilyID2Title).
 
 ## Getting Started
 
