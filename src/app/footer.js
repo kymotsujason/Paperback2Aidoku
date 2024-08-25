@@ -9,7 +9,7 @@ const Footer = () => {
 			<span>
 				<a
 					style={{ color: "white" }}
-					href="https://github.com/kymotsujason"
+					href="https://github.com/kymotsujason/Paperback2Aidoku"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
