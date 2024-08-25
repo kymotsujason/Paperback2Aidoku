@@ -219,7 +219,7 @@ const paperback2aidoku = async (file, setLogs) => {
 		if (source.includes("toonily")) {
 			setLogs((logs) => [
 				...logs,
-				`\n${source}: ${sourceCount[source]} (migrate after restoring in aidoku or use tool in github)`,
+				`\n${source}: ${sourceCount[source]} (migrate after restoring in aidoku or use this tool https://github.com/kymotsujason/ToonilyID2Title)`,
 			]);
 		} else if (source.includes("nepnep")) {
 			setLogs((logs) => [
