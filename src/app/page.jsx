@@ -21,8 +21,6 @@ const Home = () => {
 	const onFileChange = async (event) => {
 		setUploadDisabled(true);
 		const file = event.target.files[0];
-		const formData = new FormData();
-		formData.append("PBBackup", file, file.name);
 		const data = await paperback2aidoku(file, setLogs);
 		let d = new Date(file.lastModified);
 		setDate(d.toISOString().split("T")[0]);
