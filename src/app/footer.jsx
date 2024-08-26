@@ -1,10 +1,10 @@
-import "./footer.css";
+import styles from "./footer.module.css";
 import { FaRegCopyright } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
 	return (
-		<div className="footer">
+		<div className={styles.footer}>
 			<FaRegCopyright /> 2024 Jason Yue{" - "}
 			<span>
 				<a

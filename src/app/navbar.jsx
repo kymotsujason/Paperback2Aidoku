@@ -1,8 +1,8 @@
-import "./navbar.css";
+import styles from "./navbar.module.css";
 
 const Navbar = () => {
 	return (
-		<div className="navbar">
+		<div className={styles.navbar}>
 			<h1>Paperback2Aidoku</h1>
 		</div>
 	);
