@@ -1,5 +1,5 @@
-const JSZip = require("jszip");
-const sources = require("./sources.json");
+import JSZip from "jszip";
+import sources from "./sources.json";
 
 const backup = {
 	library: [],
