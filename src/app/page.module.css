@@ -16,6 +16,8 @@
 	white-space: pre-line;
 	text-wrap: wrap;
 	overflow: auto;
+	display: flex;
+	flex-direction: column-reverse;
 }
 
 .flex {

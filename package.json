@@ -1,6 +1,8 @@
 {
 	"name": "paperback2aidoku",
 	"version": "1.0.0",
+	"author": "Jason Yue",
+	"description": "Convert Paperback .pas4 backup files to Aidoku compatible JSON",
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
