@@ -115,8 +115,10 @@ const paperback2aidoku = async (file, setLogs) => {
 				.replace(/[^0-9a-z]/gi, "");
 			const status = convertMangaStatus(statusText);
 			const tags = [];
-			for (let tagIndex in mangaInfo.tags[0].tags) {
-				tags.push(mangaInfo.tags[0].tags[tagIndex].label);
+			if (mangaInfo.tags && mangaInfo.tags[0] && mangaInfo.tags[0].tags) {
+				for (let tagIndex in mangaInfo.tags[0].tags) {
+					tags.push(mangaInfo.tags[0].tags[tagIndex].label);
+				}
 			}
 			sourceCount[sourceId] = (sourceCount[sourceId] || 0) + 1;
 			const category = [];
